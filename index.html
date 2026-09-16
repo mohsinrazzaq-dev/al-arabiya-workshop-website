@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ورشة العربية لصيانة السيارات - خدمات صيانة السيارات في العامرات، مسقط">
+  <title>ورشة العربية لصيانة السيارات | العامرات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="ورشة العربية">
+        <img class="brand-logo" src="images/logo.png" alt="شعار ورشة العربية">
+        <span>
+          <strong>ورشة العربية</strong>
+          <small>لصيانة السيارات</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a class="active" href="#home">الرئيسية</a>
+        <a href="#packages">باقات الصيانة</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#gallery">المعرض</a>
+        <a href="#about">عن الورشة</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+
+      <a class="header-cta" href="#booking">احجز موعدك الآن <span>↗</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-photo"
+        src="images/hero.jpg"
+        alt="ورشة سيارات حديثة">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <span class="eyebrow">خبرة • دقة • ثقة</span>
+          <h1>ورشة العربية<br><em>لصيانة السيارات</em></h1>
+          <p>خدمات صيانة احترافية لجميع أنواع السيارات في العامرات، مسقط.</p>
+
+          <div class="car-types">
+            <span><b>🚘</b> ياباني</span>
+            <span><b>🚙</b> أمريكي</span>
+            <span><b>🚗</b> أوروبي</span>
+            <span><b>🚕</b> صيني</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#booking">احجز موعدك الآن <span>◉</span></a>
+            <a class="btn btn-ghost" href="#packages">شاهد الباقات</a>
+          </div>
+        </div>
+
+        <div class="hero-badge">
+          <small>خدمة أفضل</small>
+          <strong>لسيارتك</strong>
+          <span>صيانة • فحص • عناية</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><img
+            src="images/فنيون متخصصون.jpg"
+            alt="فنيون داخل ورشة"><strong>فنيون متخصصون</strong><small>خدمة احترافية</small></div>
+        <div><img
+            src="images/معدات متطورة.jpg"
+            alt="معدات الورشة"><strong>معدات متطورة</strong><small>بيئة صيانة منظمة</small></div>
+        <div><img
+            src="images/خدمات متنوعة.jpg"
+            alt="سيارات داخل الورشة"><strong>خدمات متنوعة</strong><small>لأنواع سيارات متعددة</small></div>
+        <div><img
+            src="images/صيانة دورية.png"
+            alt="تغيير زيت المحرك"><strong>صيانة دورية</strong><small>حافظ على أداء سيارتك</small></div>
+      </div>
+    </section>
+
+    <section class="section packages-section" id="packages">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow dark">باقات الصيانة الدورية</span>
+            <h2>عروض الـ <strong>10,000 كم</strong></h2>
+          </div>
+          <p>اختر الباقة المناسبة لسيارتك واستفد من خدمات الصيانة الدورية بأسعار واضحة.</p>
+        </div>
+
+        <div class="package-grid">
+          <article class="package-card">
+            <div class="package-top"><span>باقة 23 ريال</span><small>اقتصادية</small></div>
+            <img class="package-photo"
+              src="images/الباقة الأساسية.jpg"
+              alt="صيانة سيارة" loading="lazy">
+            <h3>الباقة الأساسية</h3>
+            <ul>
+              <li>زيت المحرك</li>
+              <li>فلتر الزيت</li>
+              <li>فحص شامل</li>
+              <li>فحص السوائل</li>
+            </ul>
+            <a href="#booking" class="card-btn" data-package="باقة 23 ريال">احجز الآن</a>
+          </article>
+
+          <article class="package-card featured">
+            <span class="popular">الأكثر طلباً</span>
+            <div class="package-top"><span>باقة 27 ريال</span><small>مميزة</small></div>
+            <img class="package-photo"
+              src="images/الباقة المميزة.jpg"
+              alt="صيانة سيارة" loading="lazy">
+            <h3>الباقة المميزة</h3>
+            <ul>
+              <li>زيت المحرك</li>
+              <li>فلتر الزيت</li>
+              <li>فحص شامل</li>
+              <li>فحص كهربائي</li>
+            </ul>
+            <a href="#booking" class="card-btn" data-package="باقة 27 ريال">احجز الآن</a>
+          </article>
+
+          <article class="package-card">
+            <div class="package-top"><span>باقة 34 ريال</span><small>متقدمة</small></div>
+            <img class="package-photo"
+              src="images/الباقة المتقدمة.jpg"
+              alt="صيانة سيارة" loading="lazy">
+            <h3>الباقة المتقدمة</h3>
+            <ul>
+              <li>زيت المحرك</li>
+              <li>فلتر الزيت</li>
+              <li>فحص شامل</li>
+              <li>فحص كهربائي</li>
+              <li>فحص الإطارات</li>
+            </ul>
+            <a href="#booking" class="card-btn" data-package="باقة 34 ريال">احجز الآن</a>
+          </article>
+
+          <article class="package-card">
+            <div class="package-top"><span>باقة 39 ريال</span><small>شاملة</small></div>
+            <img class="package-photo"
+              src="images/الباقة الشاملة.jpg"
+              alt="صيانة سيارة" loading="lazy">
+            <h3>الباقة الشاملة</h3>
+            <ul>
+              <li>زيت المحرك</li>
+              <li>فلتر الزيت</li>
+              <li>فحص شامل</li>
+              <li>فحص كهربائي</li>
+              <li>فحص الإطارات</li>
+              <li>تقييم حالة السيارة</li>
+            </ul>
+            <a href="#booking" class="card-btn" data-package="باقة 39 ريال">احجز الآن</a>
+          </article>
+        </div>
+        <p class="note">* تفاصيل الباقات والأسعار قابلة للتعديل حسب نوع السيارة والخدمة المطلوبة.</p>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container services-layout">
+        <div class="services-copy">
+          <span class="eyebrow">نخدم سيارتك بكل احترافية</span>
+          <h2>خدماتنا</h2>
+          <p>مجموعة متكاملة من خدمات الصيانة والفحص والعناية بالسيارات، مع إمكانية التواصل المباشر مع الورشة.</p>
+          <a href="#booking" class="btn btn-primary">اطلب خدمتك الآن</a>
+        </div>
+        <div class="services-grid">
+          <div class="service"><img class="service-photo"
+              src="images/تغيير الزيت والفلاتر.png"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>تغيير الزيت والفلاتر</h3>
+            <p>خدمة دورية للحفاظ على أداء المحرك.</p>
+          </div>
+          <div class="service"><img class="service-photo" src="https://trustlineautohub.ca/images/services/a.jpg"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>صيانة المحرك</h3>
+            <p>فحص وصيانة مكونات المحرك.</p>
+          </div>
+          <div class="service"><img class="service-photo"
+              src="images/الفحص الكهربائي.jpg"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>الفحص الكهربائي</h3>
+            <p>تشخيص الأعطال باستخدام أجهزة الفحص.</p>
+          </div>
+          <div class="service"><img class="service-photo"
+              src="images/تبديل الإطارات.jpg"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>تبديل الإطارات</h3>
+            <p>فحص الإطارات وخدمة الاستبدال.</p>
+          </div>
+          <div class="service"><img class="service-photo"
+              src="images/التكييف.jpg"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>التكييف</h3>
+            <p>فحص وصيانة نظام تكييف السيارة.</p>
+          </div>
+          <div class="service"><img class="service-photo"
+              src="images/خدمة السيارات.jpg"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>فحص شامل للسيارة</h3>
+            <p>تقييم شامل لحالة السيارة.</p>
+          </div>
+          <div class="service"><img class="service-photo"
+              src="images/الفرامل والتعليق.jpg"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>الفرامل والتعليق</h3>
+            <p>فحص أنظمة الفرامل والتعليق.</p>
+          </div>
+          <div class="service"><img class="service-photo"
+              src="images/خدمات إضافية.jpg"
+              alt="خدمة سيارات" loading="lazy">
+            <h3>خدمات إضافية</h3>
+            <p>حلول حسب احتياج سيارتك.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual"><img
+            src="images/about.jpg"
+            alt="داخل ورشة صيانة سيارات"></div>
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow dark">عن ورشة العربية</span>
+        <h2>صيانة سيارتك تبدأ من <em>الاختيار الصحيح</em></h2>
+        <p>نقدم خدمات صيانة متنوعة لأصحاب السيارات في ولاية العامرات، مع التركيز على سهولة الحجز ووضوح الخدمات والتواصل
+          السريع.</p>
+        <div class="stats">
+          <div><strong>4</strong><span>باقات صيانة</span></div>
+          <div><strong>8+</strong><span>خدمات أساسية</span></div>
+          <div><strong>24/7</strong><span>استقبال الطلبات</span></div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow dark">صور وخدمات</span>
+            <h2>معرض الورشة</h2>
+          </div>
+          <p>صور حقيقية لبيئات صيانة السيارات والخدمات التي يمكن عرضها في الموقع.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-large"><img
+              src="images/بيئة صيانة منظمة.jpg"
+              alt="ورشة سيارات حديثة">
+            <figcaption>بيئة صيانة منظمة</figcaption>
+          </figure>
+          <figure><img
+              src="images/خدمة السيارات.jpg"
+              alt="سيارات داخل الورشة">
+            <figcaption>خدمة السيارات</figcaption>
+          </figure>
+          <figure><img
+              src="images/صيانة وفحص.jpg"
+              alt="صيانة السيارات">
+            <figcaption>صيانة وفحص</figcaption>
+          </figure>
+          <figure><img src="images/التشخيص الكهربائي.jpg" alt="تشخيص السيارة">
+            <figcaption>التشخيص الكهربائي</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="container booking-wrap">
+        <div class="booking-intro">
+          <span class="eyebrow">تواصل معنا مباشرة</span>
+          <h2>احجز موعد الصيانة</h2>
+          <p>أرسل بيانات سيارتك والخدمة المطلوبة، وسيتم تجهيز رسالة واتساب للورشة.</p>
+          <div class="whatsapp-card">
+            <span>💬</span>
+            <div><small>واتساب</small><strong>96115504</strong></div>
+          </div>
+        </div>
+
+        <form id="bookingForm" class="booking-form">
+          <div class="field"><label for="name">الاسم</label><input id="name" required placeholder="أدخل اسمك"></div>
+          <div class="field"><label for="phone">رقم الجوال</label><input id="phone" required
+              placeholder="أدخل رقم الجوال"></div>
+          <div class="field"><label for="car">نوع السيارة</label>
+            <select id="car" required>
+              <option value="">اختر نوع السيارة</option>
+              <option>ياباني</option>
+              <option>أمريكي</option>
+              <option>أوروبي</option>
+              <option>صيني</option>
+              <option>أخرى</option>
+            </select>
+          </div>
+          <div class="field"><label for="service">نوع الخدمة</label>
+            <select id="service" required>
+              <option value="">اختر الخدمة المطلوبة</option>
+              <option>باقة 23 ريال</option>
+              <option>باقة 27 ريال</option>
+              <option>باقة 34 ريال</option>
+              <option>باقة 39 ريال</option>
+              <option>تغيير الزيت والفلاتر</option>
+              <option>فحص كهربائي</option>
+              <option>فحص شامل</option>
+              <option>خدمة أخرى</option>
+            </select>
+          </div>
+          <div class="field full"><label for="message">ملاحظات</label><textarea id="message" rows="3"
+              placeholder="اكتب أي تفاصيل إضافية..."></textarea></div>
+          <button class="btn btn-primary full" type="submit">إرسال الطلب عبر واتساب <span>↗</span></button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow dark">موقعنا في العامرات</span>
+          <h2>زورونا أو تواصلوا معنا</h2>
+          <p>ولاية العامرات، سلطنة عمان</p>
+          <div class="contact-lines">
+            <a href="tel:96115504">📞 96115504</a>
+            <a href="https://wa.me/96896115504" target="_blank" rel="noopener">💬 واتساب</a>
+            <span>📍 العامرات، مسقط</span>
+          </div>
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Al+Amerat+Oman"
+            target="_blank" rel="noopener">فتح الموقع على الخريطة</a>
+        </div>
+        <div class="map-placeholder">
+          <div class="map-grid"></div>
+          <span class="map-pin">📍</span>
+          <strong>ورشة العربية لصيانة السيارات</strong>
+          <small>العامرات • مسقط</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div class="brand footer-brand"><img class="brand-logo" src="images/logo.png" alt="شعار ورشة العربية"><span><strong>ورشة
+            العربية</strong><small>لصيانة السيارات</small></span></div>
+      <p>© <span id="year"></span> ورشة العربية لصيانة السيارات. جميع الحقوق محفوظة.</p>
+      <a href="#booking">احجز موعدك ↗</a>
+    </div>
+  </footer>
+
+  <a class="floating-wa" href="https://wa.me/96896115504" target="_blank" rel="noopener" aria-label="واتساب">◔</a>
+  <script src="script.js"></script>
+</body>
+
+</html>
